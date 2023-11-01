@@ -43,8 +43,8 @@ class MyThirdGUI {
         JPanel panel = new JPanel();
         ImageIcon image1 = new ImageIcon("image1.jpg");
         ImageIcon image2 = new ImageIcon("image2.jpg");
-        JLabel label1 = new JLabel("Первое изображение",image1.getScaledInstance(200, 200, Image.SCALE_SMOOTH), JLabel.LEFT);
-        JLabel label2 = new JLabel("Второе изображение", image2.getScaledInstance(200, 200, Image.SCALE_SMOOTH), JLabel.RIGHT);
+        JLabel label1 = new JLabel("Первое изображение", image1, JLabel.LEFT);
+        JLabel label2 = new JLabel("Второе изображение", image2, JLabel.RIGHT);
 
         //        label2.setPreferredSize(new Dimension(200, 200));
 //        label1.setPreferredSize(new Dimension(200, 200));
